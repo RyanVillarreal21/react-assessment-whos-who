@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      path {
+        fill: black;
+      }
+    </style>
+
+    <path
+      id="note"
+      d="
+        M 5 0
+        L 5 10
+        C 5 9 2 9 2 10
+        C 2 12 6 12 6 10
+        L 6 3
+        C 8 4 10 7 7 9
+        L 8 9
+        C 11 7 9 5 6 0 
+      "
+      transform="scale(2)"
+    />
+  </defs>
+
+  <use href="#note" transform="translate(25, 23)">
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="rotate"
+      dur="1s"
+      from="0 15 15"
+      to="72 15 15"
+      repeatCount="indefinite"
+      additive="sum"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="rotate"
+      dur="1s"
+      from="0"
+      to="-72"
+      repeatCount="indefinite"
+      additive="sum"
+    />
+  </use>
+  <use href="#note" transform="translate(25, 23)">
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="rotate"
+      dur="1s"
+      from="72 15 15"
+      to="144 15 15"
+      repeatCount="indefinite"
+      additive="sum"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="rotate"
+      dur="1s"
+      from="-72"
+      to="-144"
+      repeatCount="indefinite"
+      additive="sum"
+    />
+  </use>
+  <use href="#note" transform="translate(25, 23)">
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="rotate"
+      dur="1s"
+      from="144 15 15"
+      to="216 15 15"
+      repeatCount="indefinite"
+      additive="sum"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="rotate"
+      dur="1s"
+      from="-144"
+      to="-216"
+      repeatCount="indefinite"
+      additive="sum"
+    />
+  </use>
+  <use href="#note" transform="translate(25, 23)">
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="rotate"
+      dur="1s"
+      from="216 15 15"
+      to="288 15 15"
+      repeatCount="indefinite"
+      additive="sum"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="rotate"
+      dur="1s"
+      from="-216"
+      to="-288"
+      repeatCount="indefinite"
+      additive="sum"
+    />
+  </use>
+  <use href="#note" transform="translate(25, 23)">
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="rotate"
+      dur="1s"
+      from="288 15 15"
+      to="360 15 15"
+      repeatCount="indefinite"
+      additive="sum"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="rotate"
+      dur="1s"
+      from="-288"
+      to="-360"
+      repeatCount="indefinite"
+      additive="sum"
+    />
+  </use>
+
+</svg>
